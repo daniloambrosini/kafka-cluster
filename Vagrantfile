@@ -69,7 +69,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "kafka-#{i}" do |kafka|
       kafka.vm.hostname = "kafka-#{i}"
       kafka.vm.provider "virtualbox" do |vb|
-        vb.memory = "3072"
+        vb.memory = "1024"
         vb.cpus = "1"
       end
       kafka.vm.network :private_network, ip: "192.168.10.#{3 + i}", auto_config: true
