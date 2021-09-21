@@ -2,3 +2,4 @@
 download
 exchange
 *.retry
+.DS_Store
