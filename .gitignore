@@ -3,3 +3,4 @@ download
 exchange
 *.retry
 .DS_Store
+ansible/roles/kafka/tasks/.main.yml.swp
